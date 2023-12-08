@@ -14,7 +14,7 @@ class Fish():
 
 class Trout(Fish):
     def __init__(self, water = "freshwater"):
-        super().__init__(self)
+        super().__init__()
         self.water = water
 
     def swim(self):
@@ -80,7 +80,7 @@ class Coral:
 class Anemone(Coral):
     def __init__(self, last_name="Anemone"):
         self.last_name = last_name
-        super().__init__(self)
+        super().__init__()
 
 
     def protect_clownfish(self):
